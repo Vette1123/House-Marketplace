@@ -4,7 +4,7 @@
 
 ## To run the program, you have to follow the following steps:
 
-> Please type `npm install` or `npm i` to install the dependencies`Then type`npm start` to run the program
+Please type `npm install` or `npm i` to install the dependencies Then type `npm start` to run the program
 
 ## 🛠 Technologies and tools
 
