@@ -2,30 +2,15 @@
 
 <img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' width='200"'>
 
-## To run the program, you have to install the following dependencies:
+## To run the program, you have to follow the following steps:
 
-`Please type npm install to install the dependencies`
-`Then type npm start to run the program`
+> `Please type npm install or npm i to install the dependencies`
 
-[<img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="HTML5 logo" title="HTML5" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" />][tech_tools_anchor]
-&nbsp;
-&nbsp;
-[<img src="https://img.shields.io/badge/React -282C34?logo=react&logoColor=61DAFB" alt="React Native logo" title="React Native" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/ESLint-282C34?logo=eslint&logoColor=4B32C3" alt="ESLint logo" title="ESLint" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/npm-282C34?logo=npm&logoColor=FBC02D" alt="npm logo" title="npm" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/GitHub-282C34?logo=github&logoColor=F05032" alt="GitHub logo" title="GitHub" height="25" />][tech_tools_anchor]
-&nbsp;
+> `Then type npm start to run the program`
+
+## 🛠 Technologies and tools
+
+> [<img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" />][tech_tools_anchor] > &nbsp; > [<img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="HTML5 logo" title="HTML5" height="25" />][tech_tools_anchor] > &nbsp; > [<img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" />][tech_tools_anchor] > &nbsp; > &nbsp; > [<img src="https://img.shields.io/badge/React -282C34?logo=react&logoColor=61DAFB" alt="React Native logo" title="React Native" height="25" />][tech_tools_anchor] > &nbsp; > [<img src="https://img.shields.io/badge/ESLint-282C34?logo=eslint&logoColor=4B32C3" alt="ESLint logo" title="ESLint" height="25" />][tech_tools_anchor] > &nbsp; > [<img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" />][tech_tools_anchor] > &nbsp; > [<img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" />][tech_tools_anchor] > &nbsp; > [<img src="https://img.shields.io/badge/npm-282C34?logo=npm&logoColor=FBC02D" alt="npm logo" title="npm" height="25" />][tech_tools_anchor] > &nbsp; > [<img src="https://img.shields.io/badge/GitHub-282C34?logo=github&logoColor=F05032" alt="GitHub logo" title="GitHub" height="25" />][tech_tools_anchor] > &nbsp;
 
 ## 📚 Documentation
 
@@ -50,15 +35,3 @@
 [tech_tools_anchor]: #bonjour--
 [learning_now_anchor]: #learning-now
 [learning_next_anchor]: #learning-next
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.
-You may also see any lint errors in the console.
