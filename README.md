@@ -1,53 +1,59 @@
-<h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚘𝚍𝚎𝚛𝚜/>! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30"></h2>
+# 🏡 House Marketplace
 
-<img align='right' src='https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif' width='200"'>
+> A full-stack property marketplace for renting and selling homes — powered by React and Firebase.
 
-## To run the program, you have to follow the following steps:
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-9-FFCA28?logo=firebase&logoColor=black)
+![React Router](https://img.shields.io/badge/React%20Router-6-CA4245?logo=reactrouter&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-Maps-199900?logo=leaflet&logoColor=white)
 
-Please type `npm install` or `npm i` to install the dependencies Then type `npm start` to run the program
+### 🚀 [Try it live →](https://house-marketplacee.vercel.app/)
 
-## 🛠 Technologies and tools
+A property listing platform where users can browse homes for rent or for sale, post their own listings with photos and a map pin, and sign in with the social provider of their choice. Backed by Firebase Auth and Firestore.
 
-[<img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="HTML5 logo" title="HTML5" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" />][tech_tools_anchor]
-&nbsp;
-&nbsp;
-[<img src="https://img.shields.io/badge/React -282C34?logo=react&logoColor=61DAFB" alt="React Native logo" title="React Native" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/ESLint-282C34?logo=eslint&logoColor=4B32C3" alt="ESLint logo" title="ESLint" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/VS%20Code-282C34?logo=visual-studio-code&logoColor=007ACC" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/npm-282C34?logo=npm&logoColor=FBC02D" alt="npm logo" title="npm" height="25" />][tech_tools_anchor]
-&nbsp;
-[<img src="https://img.shields.io/badge/GitHub-282C34?logo=github&logoColor=F05032" alt="GitHub logo" title="GitHub" height="25" />][tech_tools_anchor]
-&nbsp;
+## ✨ Features
 
-## 📚 Documentation
+- **Browse by category** — separate views for properties **for rent** and **for sale**, plus a curated **offers** page for discounted listings.
+- **Listing details** — full property pages with an image carousel (Swiper), location pin on an interactive **Leaflet** map, and contact-landlord flow.
+- **Create / edit / delete listings** — authenticated users can post new listings with multiple images, manage their own from the profile page, and edit or remove them anytime.
+- **Address → coordinates** — listing addresses are geocoded via the **Google Geocoding API** so every property shows up on the map.
+- **Social sign-in** — OAuth with **Google, Facebook, GitHub, and Twitter** via Firebase Auth, alongside email/password.
+- **Forgot password** — built-in password reset email flow.
+- **Profile management** — update display name and view all of your active listings in one place.
+- **Toasts everywhere** — friendly success and error feedback via `react-toastify`.
 
-> Complete full-stack application made with React/Firebase.
+## 🛠️ Tech Stack
 
-> You can reset the password of the user by clicking on the button "Reset Password".
+- **Framework** — React 18 (Create React App)
+- **Backend** — Firebase (Authentication + Firestore + Storage)
+- **Routing** — React Router v6
+- **Maps** — Leaflet + React-Leaflet
+- **Carousels** — Swiper & Splide
+- **Geocoding** — Google Maps Geocoding API
 
-> You can delete a listing by clicking on the button "Delete Listing".
+## 📖 Getting Started
 
-> You can edit a listing by clicking on the button "Edit Listing".
+```bash
+npm install
+npm start
+```
 
-> you can Sign in with Google by clicking on the button "Sign in with Google".
+The app runs on [http://localhost:3000](http://localhost:3000).
 
-> You can Sign in with Facebook by clicking on the button "Sign in with Facebook".
+### Environment variables
 
-> You can Sign in with Twitter by clicking on the button "Sign in with Twitter".
+Copy `.env.sample` to `.env` and fill in the values from your Firebase project and a Google Cloud API key with the Geocoding API enabled:
 
-> You can Sign in with GitHub by clicking on the button "Sign in with GitHub".
+```env
+REACT_APP_GEOCODE_API_KEY=
+REACT_APP_API_KEY=
+REACT_APP_AUTH_DOMAIN=
+REACT_APP_PROJECT_ID=
+REACT_APP_STORAGE_BUCKET=
+REACT_APP_MESSAGING_SENDER_ID=
+REACT_APP_APP_ID=
+```
 
-> Hooked up with Firebase Authentication.
+## 🙌 Credits
 
-[tech_tools_anchor]: #bonjour--
-[learning_now_anchor]: #learning-now
-[learning_next_anchor]: #learning-next
+Built by [Mohamed Gado](https://mohamedgado.com).
