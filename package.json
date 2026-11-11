@@ -2,8 +2,12 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "26.x"
+  },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.5",
+    "@splidejs/splide": "^4.0.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",

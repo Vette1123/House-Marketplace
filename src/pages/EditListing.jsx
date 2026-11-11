@@ -98,7 +98,7 @@ function EditListing() {
       }
     };
     fetchListing();
-  }, []);
+  }, [navigate, params.listingId]);
 
   const onSubmit = async (e) => {
     e.preventDefault();
