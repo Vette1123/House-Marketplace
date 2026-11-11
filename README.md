@@ -1,6 +1,6 @@
 # 🏡 House Marketplace
 
-> A full-stack property marketplace for renting and selling homes — powered by React and Firebase.
+> A full-stack property marketplace for renting and selling homes, built with React and Firebase.
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-9-FFCA28?logo=firebase&logoColor=black)
@@ -13,23 +13,23 @@ A property listing platform where users can browse homes for rent or for sale, p
 
 ## ✨ Features
 
-- **Browse by category** — separate views for properties **for rent** and **for sale**, plus a curated **offers** page for discounted listings.
-- **Listing details** — full property pages with an image carousel (Swiper), location pin on an interactive **Leaflet** map, and contact-landlord flow.
-- **Create / edit / delete listings** — authenticated users can post new listings with multiple images, manage their own from the profile page, and edit or remove them anytime.
-- **Address → coordinates** — listing addresses are geocoded via the **Google Geocoding API** so every property shows up on the map.
-- **Social sign-in** — OAuth with **Google, Facebook, GitHub, and Twitter** via Firebase Auth, alongside email/password.
-- **Forgot password** — built-in password reset email flow.
-- **Profile management** — update display name and view all of your active listings in one place.
-- **Toasts everywhere** — friendly success and error feedback via `react-toastify`.
+- **Browse by category**: separate views for properties for rent and for sale, plus an offers page for discounted listings.
+- **Listing details**: each property has a page with an image carousel (Swiper), a location pin on an interactive Leaflet map, and a contact-landlord flow.
+- **Create / edit / delete listings**: signed-in users can post listings with multiple images, manage their own from the profile page, and edit or remove them at any time.
+- **Address → coordinates**: listing addresses are geocoded with the Google Geocoding API so every property shows up on the map.
+- **Social sign-in**: OAuth with Google, Facebook, GitHub, and Twitter through Firebase Auth, plus email/password.
+- **Forgot password**: password reset by email.
+- **Profile management**: update your display name and see all your active listings in one place.
+- **Toasts**: success and error feedback via `react-toastify`.
 
 ## 🛠️ Tech Stack
 
-- **Framework** — React 18 (Create React App)
-- **Backend** — Firebase (Authentication + Firestore + Storage)
-- **Routing** — React Router v6
-- **Maps** — Leaflet + React-Leaflet
-- **Carousels** — Swiper & Splide
-- **Geocoding** — Google Maps Geocoding API
+- **Framework**: React 18 (Create React App)
+- **Backend**: Firebase (Authentication + Firestore + Storage)
+- **Routing**: React Router v6
+- **Maps**: Leaflet + React-Leaflet
+- **Carousels**: Swiper & Splide
+- **Geocoding**: Google Maps Geocoding API
 
 ## 📖 Getting Started
 
